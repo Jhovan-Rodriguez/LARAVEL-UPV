@@ -19,6 +19,13 @@ class RegisterController extends Controller
         //dd($request->username);
         //Modificamos el Request para que no se repitan los "username"
         //$request->request->add(['username'=>Str::slug($request->username)]); 
+        $this->validate($request,[
+            'name'=>'required',
+            'username'=>'required',
+            'email'=>'required',
+            'password'=>'required',
+            'password_confirmation'=>'',
+        ]);
 
         //Invocar el modelo User para crear el registro
         User::create([

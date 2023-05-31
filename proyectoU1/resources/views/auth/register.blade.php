@@ -20,35 +20,35 @@
                 <div>
                     <label for="name" class="block text-sm font-medium leading-6 text-gray-900">Nombre</label>
                     <div class="mt-2">
-                        <input placeholder="Ingrese su nombre" id="name" name="name" type="text" required
+                        <input placeholder="Ingrese su nombre" id="name" name="name" type="text"  
                             class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                     </div>
                 </div>
                 <div>
                     <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Username</label>
                     <div class="mt-2">
-                        <input placeholder="Ingrese su username" id="username" name="username" type="text" required
+                        <input placeholder="Ingrese su username" id="username" name="username" type="text"  
                             class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                     </div>
                 </div>
                 <div>
                     <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email</label>
                     <div class="mt-2">
-                        <input placeholder="Ingrese su email" id="email" name="email" type="email" required
+                        <input placeholder="Ingrese su email" id="email" name="email" type="email"  
                             class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                     </div>
                 </div>
                 <div>
                     <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Contraseña</label>
                     <div class="mt-2">
-                        <input placeholder="Ingrese su contraseña" id="password" name="password" type="password" required
+                        <input placeholder="Ingrese su contraseña" id="password" name="password" type="password"  
                             class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                     </div>
                 </div>
                 <div>
                     <label for="confirm_password"  class="block text-sm font-medium leading-6 text-gray-900">Confirmar contraseña</label>
                     <div class="mt-2">
-                        <input id="confirm_password" placeholder="Confirme su contraseña" name="confirm_password" type="password" required
+                        <input id="confirm_password" placeholder="Confirme su contraseña" name="confirm_password" type="password"  
                             class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                     </div>
                 </div>

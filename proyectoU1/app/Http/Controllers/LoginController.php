@@ -15,10 +15,10 @@ class LoginController extends Controller
     //Validar formulario de login
     public function store(Request $request){
         //Reglas de validación
-        //$this->validate($request,[
-        //    'email'=>'required|email',
-        //    'password'=>'required'
-        //]);
+        $this->validate($request,[
+            'email'=>'required|email',
+            'password'=>'required'
+        ]);
 
         //Verificar que las credenciales estan correctas
         if(!auth()->attempt($request->only('email','password'))){
